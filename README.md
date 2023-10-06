@@ -62,4 +62,4 @@
 
 | **김유진**                               | **이희정**                               | **임성원**                               | **김민태**                               | **박정은**                               | **권지훈**                               |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| [@Yujin830](https://github.com/Yujin830) | [@Yujin830](https://github.com/Yujin830) | [@imsw0529](https://github.com/imsw0529) | [@Yujin830](https://github.com/Yujin830) | [@Yujin830](https://github.com/Yujin830) | [@Yujin830](https://github.com/Yujin830) |
+| [@Yujin830](https://github.com/Yujin830) | [@heejeong13](https://github.com/heejeong13) | [@imsw0529](https://github.com/imsw0529) | [@mi2ntae](https://github.com/mi2ntae) | [@jungeunevepark](https://github.com/jungeunevepark) | [@gwonjihun](https://github.com/gwonjihun) |
