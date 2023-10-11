@@ -45,7 +45,7 @@
 - [PCB와 Context Switching](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
 - [IPC(Inter Process Communication)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/IPC)
 - [CPU 스케줄링](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
-- [데드락(DeadLock)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
+- [데드락(DeadLock)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/데드락)
 - [Race Condition](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
 - [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
 - [페이징 & 세그먼테이션](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
