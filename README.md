@@ -39,7 +39,7 @@
 
 - [운영체제란](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/운영체제란)
 - [프로세스 vs 스레드](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/프로세스vs스레드)
-- [프로세스 주소 공간](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
+- [프로세스 주소 공간](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/프로세스%20주소%20공간)
 - [인터럽트(Interrupt)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/인터럽트)
 - [시스템 콜(System Call)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
 - [PCB와 Context Switching](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
