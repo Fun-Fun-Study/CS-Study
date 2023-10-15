@@ -62,7 +62,7 @@
 
 ## 문맥교환 시나리오
 
-![문맥교환 시나리오](https://images.velog.io/images/klloo/post/d7377b06-838e-46b6-b052-ffecce58096d/image.png)
+![문맥교환 시나리오](https://github.com/Fun-Fun-Study/CS-Study/assets/37894963/b133fa32-3d73-462a-a6c1-a25a15669167)
 
 1. `P0` 프로세스가 인터럽트를 받으면서 `PCB0`에 `P0` 프로세스의 상태 정보를 저장한다.
 2. 다음 수행될 `P1` 프로세스의 `PCB1`에서 `P1` 프로세스의 상태 정보가 CPU에 재로딩 된다.
