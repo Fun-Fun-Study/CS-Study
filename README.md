@@ -42,7 +42,7 @@
 - [프로세스 주소 공간](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/프로세스%20주소%20공간)
 - [인터럽트(Interrupt)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/인터럽트)
 - [시스템 콜(System Call)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/시스템%20콜)
-- [PCB와 Context Switching](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
+- [PCB와 Context Switching](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/PCB와%20Context%20Switching)
 - [IPC(Inter Process Communication)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/IPC)
 - [CPU 스케줄링](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
 - [데드락(DeadLock)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/데드락)
