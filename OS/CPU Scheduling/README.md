@@ -73,6 +73,8 @@
 
 - Reponse Time (응답시간) : 프로세스가 Ready Queue에 들어가서 최초로 CPU를 얻기까지의 시간, **짧을수록 좋음**
 
+- Waiting Time (대기시간) : 프로세스가 Ready Queue에서 기다린 전체 시간의 합, **짧을수록 좋음**
+
 ---
 
 ## 🎲 CPU 스케쥴링의 종류
