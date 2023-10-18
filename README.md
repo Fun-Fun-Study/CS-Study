@@ -44,7 +44,7 @@
 - [시스템 콜(System Call)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/시스템%20콜)
 - [PCB와 Context Switching](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/PCB와%20Context%20Switching)
 - [IPC(Inter Process Communication)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/IPC)
-- [CPU 스케줄링](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
+- [CPU 스케줄링](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/CPU%20Scheduling)
 - [데드락(DeadLock)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/데드락)
 - [Race Condition](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/)
 - [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/세마포어%20&%20뮤텍스)
