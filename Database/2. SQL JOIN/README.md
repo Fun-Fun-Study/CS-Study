@@ -74,3 +74,34 @@ SELECT A.ID, A.NAME
 FROM A FULL OUTER JOIN B ON A.ID = B.ID
 WHERE A.ID IS NULL OR B.ID IS NULL;
 ```
+
+<br>
+
+# 🙌 JOIN의 원리
+
+### 중첩 루프 조인
+
+### 정렬 병합 조인
+
+### 해시 조인
+
+<br>
+
+# 🙌 JOIN 사용 시 고려해야 할 점
+
+- JOIN의 효율성은 JOIN 하는 컬럼과 WHERE 절의 조건에 대한 인덱스에 크게 의존하기 때문에 인덱스를 사용하지 않거나 제대로 생성되지 않으면 JOIN 연산이 크게 느려질 수 있음
+- INNER JOIN 의 성능이 LEFT JOIN 과 RIGHT JOIN 보다 좋다는 것을 고려하여 조인 유형 선택
+- JOIN 의 대상이 되는 테이블의 크기가 크면 성능에 영향을 미치기 때문에 파티션 또는 샤딩 고려
+- 쿼리 실행 계획 분석을 통해 쿼리 최적화
+
+  <br>
+
+> ❔샤딩 <br>
+
+<br>
+
+> ❔파티셔닝 <br>
+
+<br>
+
+> ❔쿼리 실행 계획 분석 <br>

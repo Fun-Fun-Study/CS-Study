@@ -57,18 +57,18 @@
 
 ### 데이터베이스
 
-- [키(Key) 정리](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/키(Key)%20정리>)
-- [SQL JOIN](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/SQL%20JOIN)
-- [SQL Injection](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/SQL%20Injection)
-- [SQL vs NoSQL](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/SQL%20vs%20NoSQL)
-- [정규화](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/정규화)
-- [이상(Anomaly)](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/이상(Anomaly)>)
-- [인덱스(INDEX)](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/인덱스(INDEX)>)
-- [데이터베이스 무결성](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/데이터베이스%20무결성)
-- [Transaction](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/Transation)
-- [Transaction Isolation Level](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/Transaction%20Isolation%20Level)
-- [저장 프로시저](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/저장%20프로시저)
-- [레디스](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/레디스)
+- [키(Key) 정리](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/1.%20키(Key)%20정리>)
+- [SQL JOIN](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/2.%20SQL%20JOIN)
+- [SQL Injection](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/3.%20SQL%20Injection)
+- [SQL vs NoSQL](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/4.%20SQL%20vs%20NoSQL)
+- [정규화](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/5.%20정규화)
+- [이상(Anomaly)](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/6.%20이상(Anomaly)>)
+- [인덱스(INDEX)](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/7.%20인덱스(INDEX)>)
+- [데이터베이스 무결성](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/8.%20데이터베이스%20무결성)
+- [Transaction](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/9.%20Transation)
+- [Transaction Isolation Level](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/10.%20Transaction%20Isolation%20Level)
+- [저장 프로시저](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/11.%20저장%20프로시저)
+- [레디스](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/12.%20레디스)
 
 <br>
 
