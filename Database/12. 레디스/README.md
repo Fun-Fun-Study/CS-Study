@@ -17,6 +17,7 @@
 <br>
 
 - 문자열, 해시, 목록, 집합, 범위 쿼리가 있는 정렬된 집합, 비트맵, 하이퍼로그, 지리 공간 인덱스 및 스트림과 같은 **컬렉션** 제공
+
   <img src="https://github.com/Fun-Fun-Study/CS-Study/assets/73164347/00dd779c-2971-418a-87b4-af37716cbf9b">
 
 <br>
