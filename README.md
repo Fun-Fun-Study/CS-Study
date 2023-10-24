@@ -37,35 +37,35 @@
 
 ### 운영체제
 
-- [운영체제란](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/운영체제란)
-- [프로세스 vs 스레드](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/프로세스vs스레드)
-- [프로세스 주소 공간](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/프로세스%20주소%20공간)
-- [인터럽트(Interrupt)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/인터럽트)
-- [시스템 콜(System Call)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/시스템%20콜)
-- [PCB와 Context Switching](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/PCB와%20Context%20Switching)
-- [IPC(Inter Process Communication)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/IPC)
-- [CPU 스케줄링](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/CPU%20Scheduling)
-- [데드락(DeadLock)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/데드락)
+- [운영체제란](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/01.%20운영체제란)
+- [프로세스 vs 스레드](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/02.%20프로세스vs스레드)
+- [프로세스 주소 공간](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/03.%20프로세스%20주소%20공간)
+- [인터럽트(Interrupt)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/04.%20인터럽트)
+- [시스템 콜(System Call)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/05.%20시스템%20콜)
+- [PCB와 Context Switching](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/06.%20PCB와%20Context%20Switching)
+- [IPC(Inter Process Communication)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/07.%20IPC)
+- [CPU 스케줄링](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/08.%20CPU%20Scheduling)
+- [데드락(DeadLock)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/09.%20데드락)
 - Race Condition
-- [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/세마포어%20&%20뮤텍스)
+- [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/11.%20세마포어%20&%20뮤텍스)
 - 페이징 & 세그먼테이션
-- [페이지 교체 알고리즘](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/페이지%20교체%20알고리즘)
-- [메모리(Memory)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/메모리)
+- [페이지 교체 알고리즘](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/13.%20페이지%20교체%20알고리즘)
+- [메모리(Memory)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/OS/14.%20메모리)
 - 파일 시스템
 
 <br>
 
 ### 데이터베이스
 
-- [키(Key) 정리](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/1.%20키(Key)%20정리>)
-- [SQL JOIN](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/2.%20SQL%20JOIN)
-- [SQL Injection](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/3.%20SQL%20Injection)
-- [SQL vs NoSQL](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/4.%20SQL%20vs%20NoSQL)
-- [정규화](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/5.%20정규화)
-- [이상(Anomaly)](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/6.%20이상(Anomaly)>)
-- [인덱스(INDEX)](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/7.%20인덱스(INDEX)>)
-- [데이터베이스 무결성](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/8.%20데이터베이스%20무결성)
-- [Transaction](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/9.%20Transation)
+- [키(Key) 정리](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/01.%20키(Key)%20정리>)
+- [SQL JOIN](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/02.%20SQL%20JOIN)
+- [SQL Injection](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/03.%20SQL%20Injection)
+- [SQL vs NoSQL](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/04.%20SQL%20vs%20NoSQL)
+- [정규화](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/05.%20정규화)
+- [이상(Anomaly)](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/06.%20이상(Anomaly)>)
+- [인덱스(INDEX)](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/07.%20인덱스(INDEX)>)
+- [데이터베이스 무결성](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/08.%20데이터베이스%20무결성)
+- [Transaction](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/09.%20Transation)
 - [Transaction Isolation Level](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/10.%20Transaction%20Isolation%20Level)
 - [저장 프로시저](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/11.%20저장%20프로시저)
 - [레디스](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/12.%20레디스)
