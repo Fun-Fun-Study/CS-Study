@@ -64,6 +64,7 @@
 - [정규화](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/정규화)
 - [이상(Anomaly)](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/이상(Anomaly)>)
 - [인덱스(INDEX)](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/인덱스(INDEX)>)
+- [데이터베이스 무결성](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/데이터베이스%20무결성)
 - [Transaction](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/Transation)
 - [Transaction Isolation Level](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/Transaction%20Isolation%20Level)
 - [저장 프로시저](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Database/저장%20프로시저)
