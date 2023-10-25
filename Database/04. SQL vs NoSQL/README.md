@@ -80,11 +80,14 @@ SQL을 사용하면 RDBMS에서 데이터를 저장, 수정, 삭제 및 검색�
 ### NoSQL 데이터베이스 유형
 
 <img src="https://github.com/Fun-Fun-Study/CS-Study/assets/18045556/5d561efd-f475-49f9-ba9d-ab19b323dab7">
+
+<br>
+
 1. Key-Value 타입
 
-- 속성을 Key-Value의 쌍으로 나타내는 데이터를 배열 형태로 저장
-- Key : 속성 이름, Value : 속성에 연결된 데이터 값
-- Redis, Amazon DynamoDB 등
+    - 속성을 Key-Value의 쌍으로 나타내는 데이터를 배열 형태로 저장
+    - Key : 속성 이름, Value : 속성에 연결된 데이터 값
+    - Redis, Amazon DynamoDB 등
   </br></br>
 
 2. 문서형 데이터베이스
