@@ -82,6 +82,34 @@
 
 ### 개발언어
 
+- [Java 컴파일 과정](<>)
+- [Java 가상 머신](<>)
+- [Java garbage collection](<>)
+- [Error vs Exception](<>)
+- [Casting (Up & Down)](<>)
+- [Casting vs Promotion](<>)
+- [Call by Value vs Call by Reference](<>)
+- [Overriding vs Overloading](<>)
+- [Java 8 vs Java 11](<>)
+- [Wrapper Class](<>)
+- [Thread 활용](<>)
+- [고유락 (Intrinsic Lock)](<>)
+<br>
+
+### 프레임 워크
+#### Spring
+
+- [Bean Scope](<>)
+- [MVC Framework](<>)
+- [Spring Application](<>)
+- [Spring Security](<>)
+- [Test Code](<>)
+- [JPA](<>)
+- [Dirty Checking](<>)
+<br>
+
+#### React
+- [리액트는 몰라서 도와주세요여러분](<>)
 <br>
 
 <br><br>
