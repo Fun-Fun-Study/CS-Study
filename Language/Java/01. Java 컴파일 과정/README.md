@@ -1,6 +1,6 @@
 ## Java 컴파일
 
-![Alt text](image.png)
+![Alt text](https://github.com/GimunLee/tech-refrigerator/raw/master/Language/JAVA/01. Java 컴파일 과정/image.png)
 ![Alt text](image-1.png)
 
 ### Java 컴파일 과정
