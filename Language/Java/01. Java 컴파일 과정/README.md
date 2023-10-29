@@ -29,9 +29,24 @@
 > >     }
 > >  }
 > >``` 
-> > JVM이 시작되고, 앞에서 말했듯이 부트스트랩 클래스로더가 생성된 후에, 모든 클래스가 상속받고 있는 Object 클래스를 읽어온다. 그 이후에, 클래스로더는 명령행에서 지정한 HelloWorld 클래스를 로딩하기 위해, HelloWorld.class 파일을 읽는다. HelloWorld 클래스를 로딩하는 과정에서 필요한 클래스가 존재한다. 바로 java.lang.String과 java.lang.System이다. 이 두 클래스는 HelloWorld 클래스를 읽어오는 과정에서, 즉 로드타임에 로딩된다. 이 처럼, 하나의 클래스를 로딩하는 과정에서 동적으로 클래스를 로딩하는 것을 로드타임 동적 로딩이라고 한다
+> > JVM이 시작되고, 부트스트랩 클래스로더가 생성된 후에, 모든 클래스가 상속받고 있는 Object 클래스를 읽어온다. 그 이후에, 클래스로더는 명령행에서 지정한 HelloWorld 클래스를 로딩하기 위해, HelloWorld.class 파일을 읽는다. HelloWorld 클래스를 로딩하는 과정에서 필요한 클래스가 존재한다. 바로 java.lang.String과 java.lang.System이다. 이 두 클래스는 HelloWorld 클래스를 읽어오는 과정에서, 즉 로드타임에 로딩된다. 이 처럼, 하나의 클래스를 로딩하는 과정에서 동적으로 클래스를 로딩하는 것을 로드타임 동적 로딩이라고 한다
 >- 런타임 동적 로딩
-> >
+> > ```public class RuntimeLoading { 
+>>        public static void main(String[] args) { 
+>>              try { 
+>>                      Class cls = Class.forName(args[0]); 
+>>                      Object obj = cls.newInstance(); 
+>>                      Runnable r = (Runnable) obj; 
+>>                      r.run(); 
+>>              } catch (Exception e) {
+>>                      e.printStackTrace();
+>>               }
+>>      }
+>>}```
+>>위 코드에서 Class.forName(className) 은 파라미터로 받은 className에 해당하는 클래스를 로딩한 후에 객체를 반환하며, 다음과 같이 동작한다.
+>>Class.forName() 메소드가 실행되기 전까지는 RuntimeLoading 클래스에서 어떤 클래스를 참조하는지 알 수 없다.
+>>따라서 RuntimeLoading 클래스를 로딩할 때는 어떤 클래스도 읽어오지 않고, RuntimeLoading 클래스의 main() 메소드가 실행되고 Class.forName(args[0]) 를 호출하는 순간에 비로소 args[0] 에 해당하는 클래스를 로딩한다.
+>>이처럼 클래스를 로딩할 때가 아닌, 코드를 실행하는 순간에 클래스를 로딩하는 것을 런타임 동적 로딩이라고 한다.
 
 
 
