@@ -78,7 +78,7 @@ JavaScript 런타임에서 비동기 처리를 하는 방법
 - 이벤트 루프는 콜 스택과 콜백 큐를 주시하면서 콜 스택이 비면 콜백 큐에서 콜백을 가져와 콜 스택에 넣음
 - 콜 스택에 들어간 함수들은 메인 스레드에서 실행된다.
 
-![image](https://github.com/Fun-Fun-Study/CS-Study/assets/37894963/dfe33003-ab3d-452d-ae4f-e81c247e4bb2)
+![image](https://velog.velcdn.com/images%2Fyounoah%2Fpost%2Fb0d27a5d-8c2b-4024-81aa-83cc89e30391%2Fevent-loop.gif)
 
 ### setTimeout
 
