@@ -82,23 +82,31 @@
 
 ### 개발언어
 
-- [Java 컴파일 과정]()
-- [Java 가상 머신]()
-- [Java garbage collection]()
-- [Error vs Exception]()
-- [Casting (Up & Down)]()
-- [Casting vs Promotion]()
-- [Call by Value vs Call by Reference]()
-- [Overriding vs Overloading]()
-- [Java 8 vs Java 11]()
-- [Wrapper Class]()
-- [Thread 활용]()
-- [고유락 (Intrinsic Lock)]()
-  <br>
+<img src="https://img.shields.io/badge/JAVA-007396?style=plastic&logo=OPENJDK&logoColor=white">
+
+- [Java 컴파일 과정](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/01.%20Java%20컴파일%20과정)
+- [Java 가상 머신](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/02.%20Java%20가상%20머신)
+- [garbage collection](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/03.%20Garbage%20Collection)
+- [Error vs Exception](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/)
+- [Casting (Up & Down)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/)
+- [Casting vs Promotion](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/)
+- [Call by Value vs Call by Reference](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/07.%20Call%20by%20Value%20vs%20Call%20by%20Reference)
+- [Overriding vs Overloading](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/08.%20Overriding%20vs%20Overloading)
+- [Java 8 vs Java 11](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/09.%20Java8%20vs%20Java11)
+- [Wrapper Class](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/10.%20Wrapper%20Class)
+- [Thread 활용](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/11.%20Thread%20활용)
+- [고유락 (Intrinsic Lock)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/12.%20고유락)
+
+<br>
+
+<img src="https://img.shields.io/badge/REACT-61DAFB?style=plastic&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/VUE-4FC08D?style=plastic&logo=vue.js&logoColor=white">
+
+<br>
 
 ### 프레임 워크
 
-#### Spring
+<img src="https://img.shields.io/badge/SPRING-6DB33F?style=plastic&logo=spring&logoColor=white">
 
 - [Bean Scope]()
 - [MVC Framework]()
@@ -107,9 +115,10 @@
 - [Test Code]()
 - [JPA]()
 - [Dirty Checking]()
-  <br>
 
-#### JavaScript
+<br>
+
+<img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=plastic&logo=javascript&logoColor=black">
 
 - [JS Event Loop](./Language/Javascript/01.%20JS%20Event%20Loop/README.md)
 - [Hoisting](./Language/Javascript/02.%20Hoisting/README.md)
@@ -121,8 +130,6 @@
 - [DOM](./Language/Javascript/08.%20DOM/README.md)
 - [SPA](./Language/Javascript/09.%20SPA/README.md)
 - [Lifecycle](./Language/Javascript/10.%20Lifecycle/README.md)
-
-<br>
 
 <br><br>
 
