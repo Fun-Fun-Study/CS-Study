@@ -86,7 +86,7 @@
 
 - [Java 컴파일 과정](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/01.%20Java%20컴파일%20과정)
 - [Java 가상 머신](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/02.%20Java%20가상%20머신)
-- [garbage collection](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/03.%20Garbage%20Collection)
+- [Garbage Collection](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/03.%20Garbage%20Collection)
 - [Error vs Exception](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/)
 - [Casting (Up & Down)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/)
 - [Casting vs Promotion](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/)
@@ -99,8 +99,7 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/REACT-61DAFB?style=plastic&logo=react&logoColor=black">
-<img src="https://img.shields.io/badge/VUE-4FC08D?style=plastic&logo=vue.js&logoColor=white">
+<img src="https://img.shields.io/badge/REACT-61DAFB?style=plastic&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/VUE-4FC08D?style=plastic&logo=vue.js&logoColor=white">
 
 <br>
 
