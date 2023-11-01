@@ -87,9 +87,9 @@
 - [Java 컴파일 과정](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/01.%20Java%20컴파일%20과정)
 - [Java 가상 머신](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/02.%20Java%20가상%20머신)
 - [Garbage Collection](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/03.%20Garbage%20Collection)
-- [Error vs Exception](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/)
-- [Casting (Up & Down)](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/)
-- [Casting vs Promotion](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/)
+- [Error vs Exception](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/04.%20JError%20vs%20Exception)
+- [Casting (Up & Down)](<https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/05.%20Casting(Up&Down)>)
+- [Casting vs Promotion](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/06.%20Casting%20vs%20Promotion)
 - [Call by Value vs Call by Reference](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/07.%20Call%20by%20Value%20vs%20Call%20by%20Reference)
 - [Overriding vs Overloading](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/08.%20Overriding%20vs%20Overloading)
 - [Java 8 vs Java 11](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Language/Java/09.%20Java8%20vs%20Java11)
@@ -108,7 +108,7 @@
 <img src="https://img.shields.io/badge/SPRING-6DB33F?style=plastic&logo=spring&logoColor=white">
 
 - [Bean Scope]()
-- [MVC Framework]()
+- [MVC Framework](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Framework/Spring/01%20Spring%20MVC)
 - [Spring Application]()
 - [Spring Security]()
 - [Test Code]()
