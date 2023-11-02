@@ -186,41 +186,202 @@ ECMA International라는 국제기구에서 만든 표준 문서인 ECMAScript�
 
 11. Spread Operator(전개 구문)
 
-        - 묶인 배열 혹은 객체를 개별적 요소로 분리
-        - 매개변수 앞에 ...을 붙여서 작성
-        - 순서에 따라 값이 변경될 수 있어 작성 순서에 주의
+    - 묶인 배열 혹은 객체를 개별적 요소로 분리
+    - 매개변수 앞에 ...을 붙여서 작성
+    - 순서에 따라 값이 변경될 수 있어 작성 순서에 주의
 
-        ```javascript
-        let arr = [1, 2, 3, 4, 5];
-        console.log(...arr);
-        // 1 2 3 4 5
+    ```javascript
+    let arr = [1, 2, 3, 4, 5];
+    console.log(...arr);
+    // 1 2 3 4 5
 
-        var str = "javascript";
-        console.log(...str);
-        // "j" "a" "v" "a" "s" "c" "r" "i" "p" "t"
+    var str = "javascript";
+    console.log(...str);
+    // "j" "a" "v" "a" "s" "c" "r" "i" "p" "t"
 
-        var obj = { name: '짱구', species: 'human'};
-        obj = { ...obj, age: 5};
-        console.log(obj)
-        // {name: "짱구", species: "human", age: 5}
-        obj = { ...obj, name: '짱아', age: 11};
-        console.log(obj);
-        // {name: "짱아", species: "human", age: 11}
-
-        ```
+    var obj = { name: "짱구", species: "human" };
+    obj = { ...obj, age: 5 };
+    console.log(obj);
+    // {name: "짱구", species: "human", age: 5}
+    obj = { ...obj, name: "짱아", age: 11 };
+    console.log(obj);
+    // {name: "짱아", species: "human", age: 11}
+    ```
 
 12. For/Of
+    - 반복 가능한 객체의 값을 반복한다.
+    - 배열, 문자열, 맵, NodeList 등
+    - For/In 과의 차이점
+      - For/In: 열거 가능한 속성을 반복
+      - For/Of: 이터러블 객체(Symbol.iterator 속성을 가지는 객체)
+    ```javascript
+    const languages = ["Java", "C", "Python"];
+    for (let lang of languages) {
+      console.log(lang);
+    }
+    // Java
+    // C
+    // Python
+    ```
 13. Map Objects
+    - Java의 Collections의 Map과 같은 역할
+    ```javascript
+    const myMap = new Map([
+      ["a", 1],
+      ["b", 2],
+    ]);
+    myMap.set("c", 3);
+    console.log(myMap.get("a")); // 1
+    myMap.set("a", 100);
+    console.log(myMap.get("a")); // 100
+    ```
 14. Set Objects
+
+    - Java의 Collections의 Set과 같은 역할
+
+    ```javascript
+    const mySet = new Set();
+    mySet.add(1);
+    mySet.add(2);
+    mySet.add(3);
+    mySet.size; // 3
+    mySet.add(3);
+    mySet.size; // 3
+
+    mySet.has(1); // true
+    mySet.has(100); // false
+
+    mySet.delete(3);
+    mySet.has(3); // false
+    ```
+
 15. Symbol
+
+    - 원시 타입(primative)
+    - 다른 코드가 접근할 수 없는 숨겨진 식별자를 의미
+    - 고유한 식별자를 생성
+
+    ```javascript
+    const sym1 = Symbol();
+    const sym2 = Symbol("id");
+    const sym3 = Symbol("id");
+
+    sym2 === sym3; // false
+    ```
+
 16. Array.from()
+    - 순회 가능 또는 유사 배열 객체에서 얕은 복사로 새로운 Array를 생성하는 함수
+    - `Array.from(arrayLike [, mapFn])`
+    - 배열 등 이나 문자열을 넣을 수 있음
+    - mapFn으로 각 배열에 map 함수를 적용한 결과물을 얻을 수도 있음
+    ```javascript
+    Array.from("ABCD"); // ["A", "B", "C", "D"]
+    Array.from([1, 2, 3], (x) => x + 1); // [2, 3, 4]
+    ```
 17. Array keys()
+    - 배열의 각 인덱스를 키 값으로 가지는 새로운 `Array Interator` 객체를 반환하는 함수
+    ```javascript
+    const arr = ["a", "b", "c"];
+    const iter = arr.keys();
+    for (const key of iter) {
+      console.log(key);
+    }
+    // 0
+    // 1
+    // 2
+    ```
 18. Array find()
+    - 배열 안에서 테스트 함수를 만족하는 첫번째 요소를 반환하는 함수
+    - 만약 테스트를 만족하는 값이 없다면 undefined를 반환
+    ```javascript
+    const arr = [5, 12, 8, 130, 44];
+    arr.find((x) => x > 10); // 12
+    ```
 19. Array findIndex()
+    - find와 같지만 값이 아니라 인덱스를 반환하는 함수
+    - 테스트를 만족하는 요소가 없다면 -1을 반환
+    ```javascript
+    const arr = [5, 12, 8, 130, 44];
+    arr.findIndex((x) => x > 10); // 1
+    ```
 20. New Math Methods
+
+    - Math.trunc()
+      - 실수의 정수 부분만 반환
+    - Math.sign()
+      - 양수인지 음수인지 반환
+    - Math.cbrt()
+      - 세제곱근을 반환
+    - Math.log2()
+      - 밑이 2인 로그 값을 반환
+    - Math.log10()
+      - 밑이 10인 로그 값을 반환
+
+    ```javascript
+    Math.trunc(3.14) // 3
+
+    Math.sign(-10) // -1
+    Math.sign(0) // 0
+    Math.sign(4) // 1
+
+    Math.cbrt(8) // 2
+
+    Math.log2(4) = 2
+
+    Math.log10(1000) = 3
+    ```
+
 21. New Number Properties
+    - Number.EPSILON
+      - 2.220446049250313e-16
+    - Number.MIN_SAFE_INTEGER
+      - -9007199254740991 <- $-(2^{53}-1)$
+    - Number.MAX_SAFE_INTEGER
+      - 9007199254740991 <- $2^{53}-1$
 22. New Number Methods
+
+    - Number.isInteger()
+      - 정수 여부를 판단
+    - Number.isSafeInteger()
+      - safe한 정수인지 판단
+      - $-(2^{53}-1) \leq x \leq 2^{53}-1$
+
+    ```javascript
+    Number.isInteger(10); // true
+    Number.isInteger(10.5); // false
+
+    Number.isSafeInteger(10); // true
+    Number.isSafeInteger(12345678901234567890); // false
+    ```
+
 23. New Global Methods
+
+    - isFinite()
+      - 유한 값인지 판단
+      - 정확히는 `Infinity`나 `NaN`이 아닌 경우 true 반환
+    - isNaN()
+      - `NaN`인지 판단
+
+    ```javascript
+    isFinite(10 / 0); // false
+    isFinite(10 / 1); // true
+
+    isNaN("hi"); // true
+    ```
+
 24. Object entries
+
+    - key, value 쌍으로 이루어진 Array Iterator를 반환
+    - 순서를 보장하지 않으므로 필요한 경우 정렬해서 사용해야함
+      - `Obejct.entries(obj).sort((a, b) => b[0].localCompare(a[0]))`
+
+    ```javascript
+    const obj = { a: "string", b: 52 };
+    for (const [key, value] of Object.entries(obj)) {
+      console.log(`${key}: ${value}`);
+    }
+    // a: string
+    // b: 52
+    ```
 
 [Javascript ES6 참고](https://www.w3schools.com/js/js_es6.asp)
