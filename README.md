@@ -33,6 +33,14 @@
 
 ### 네트워크
 
+- [OSI 7계층](./Network/01.%20OSI%207계층)
+- [3-way-handshake & 4-way-handshake](./Network/02.%203-way-handshake%20&%204-way-handshake)
+- [TCP, IP 흐름제어 & 혼잡제어](./Network/03.%20TCP,%20IP%20흐름제어%20&%20혼잡제어)
+- [TCP vs UDP](./Network/04.%20TCP%20vs%20UDP)
+- [대칭키 & 공개키](./Network/05.%20대칭키%20&%20공개키)
+- [HTTP & HTTPS](./Network/06.%20HTTP%20&%20HTTPS)
+- [로드 밸런싱](./Network/07.%20로드%20밸런싱)
+
 <br>
 
 ### 운영체제
@@ -74,6 +82,25 @@
 
 ### 디자인패턴
 
+생성
+
+- [싱글톤](https://github.com/Fun-Fun-Study/CS-Study/tree/main/DesignPattern/생성/싱글톤%20패턴)
+- [팩토리 메소드](https://github.com/Fun-Fun-Study/CS-Study/tree/main/DesignPattern/생성/팩토리20메소드)
+- [추상 팩토리](https://github.com/Fun-Fun-Study/CS-Study/tree/main/DesignPattern/생성/추상%20팩토리)
+- 빌더
+
+헹동
+
+- [템플릿 메소드](https://github.com/Fun-Fun-Study/CS-Study/tree/main/DesignPattern/행동/템플릿20메소드)
+- 옵저버
+- 반복자
+
+구조
+
+- [어댑터](https://github.com/Fun-Fun-Study/CS-Study/tree/main/DesignPattern/구조/어댑터)
+- 프록시
+- 컴포지트
+
 <br>
 
 ### WEB
@@ -107,28 +134,28 @@
 
 <img src="https://img.shields.io/badge/SPRING-6DB33F?style=plastic&logo=spring&logoColor=white">
 
-- [Bean Scope]()
-- [MVC Framework](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Framework/Spring/01%20Spring%20MVC)
-- [Spring Application]()
-- [Spring Security]()
-- [Test Code]()
-- [JPA]()
-- [Dirty Checking]()
+- [Spring MVC](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Framework/Spring/01.%20Spring%20MVC)
+- [Spring Application](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Framework/Spring/02.%20Spring%20Application)
+- [Spring Security](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Framework/Spring/03.%20Spring%20Security)
+- [Bean Scope](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Framework/Spring/04.%20Bean%20Scope)
+- [Test Code](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Framework/Spring/05.%20Test%20Code)
+- [JPA](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Framework/Spring/06.%20JPA)
+- [Dirty Checking](https://github.com/Fun-Fun-Study/CS-Study/tree/main/Framework/Spring/07.%20Dirty%20Checking)
 
 <br>
 
 <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=plastic&logo=javascript&logoColor=black">
 
-- [JS Event Loop](./Language/Javascript/01.%20JS%20Event%20Loop/README.md)
-- [Hoisting](./Language/Javascript/02.%20Hoisting/README.md)
-- [JS Scope](./Language/Javascript/03.%20JS%20Scope/README.md)
-- [Closure](./Language/Javascript/04.%20Closure/README.md)
-- [this](./Language/Javascript/05.%20this/README.md)
-- [Promise](./Language/Javascript/06.%20Promise/README.md)
-- [ECMAScript6(ES6)](./Language/Javascript/07.%20ES6/README.md)
-- [DOM](./Language/Javascript/08.%20DOM/README.md)
-- [SPA](./Language/Javascript/09.%20SPA/README.md)
-- [Lifecycle](./Language/Javascript/10.%20Lifecycle/README.md)
+- [JS Event Loop](./Framework/Javascript/01.%20JS%20Event%20Loop/README.md)
+- [Hoisting](./Framework/Javascript/02.%20Hoisting/README.md)
+- [JS Scope](./Framework/Javascript/03.%20JS%20Scope/README.md)
+- [Closure](./Framework/Javascript/04.%20Closure/README.md)
+- [this](./Framework/Javascript/05.%20this/README.md)
+- [Promise](./Framework/Javascript/06.%20Promise/README.md)
+- [ECMAScript6(ES6)](./Framework/Javascript/07.%20ES6/README.md)
+- [DOM](./Framework/Javascript/08.%20DOM/README.md)
+- [SPA](./Framework/Javascript/09.%20SPA/README.md)
+- [Lifecycle](./Framework/Javascript/10.%20Lifecycle/README.md)
 
 <br><br>
 
