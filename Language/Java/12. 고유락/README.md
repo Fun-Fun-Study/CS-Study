@@ -21,13 +21,20 @@
 - 블록을 진입할 때 락의 획득이, 벗어날 때 락의 해제가 일어남
 
 - Thread-Safe를 보장
+
   - Thread-Safe 하지 않은 코드
+
     <img src="https://github.com/Fun-Fun-Study/CS-Study/assets/73164347/4c9b6759-5577-4804-a58e-644fa49880c6">
+
     > 위와 같은 코드에서 동시성 문제가 발생할 수 있기 때문에 count 변수로 접근하는 쓰레드를 제어해야 함
+
   - Thread-Safe 한 코드
+
     <img src="https://github.com/Fun-Fun-Study/CS-Study/assets/73164347/27b985e7-e49d-40f0-9dab-672016ec3d2d" style="width: 300">
+
     - lock이라는 객체를 사용하여 count변수에 여러 쓰레드가 동시에 접근하지 못 하도록 제어
     - increase() 메소드는 한 번에 한 스레드만 실행할 수 있음
+
     ```
     public synchronized int increase() {
         return ++count;
