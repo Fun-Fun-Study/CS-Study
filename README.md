@@ -98,7 +98,7 @@
 구조
 
 - [어댑터](./DesignPattern/구조/어댑터/README.md)
-- 프록시
+- [프록시](./DesignPattern/구조/프록시/README.md)
 - 컴포지트
 
 <br>
