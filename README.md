@@ -89,7 +89,7 @@
 - [추상 팩토리](./DesignPattern/생성/추상%20팩토리/README.md)
 - 빌더
 
-헹동
+행동
 
 - [템플릿 메소드](./DesignPattern/행동/템플릿20메소드/README.md)
 - 옵저버
