@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo "make file"
+
+if [ $# -eq 0 ]; then
+  echo "--- 도움말 ---"
+  echo "'실행파일' '폴더명'"
+  echo "  또는"
+  echo "'실행파일' '대주제' ['소주제'...]"
+  echo ""
+  echo "'폴더명' 또는 '대주제'/'소주제' 폴더가 생기고"
+  echo "  그 안에 README.md 파일 생성"
+elif [ $# -eq 1 ]; then
+  mkdir -p $1
+  echo "" >>"$1/README.md"
+else
+  super=$1
+  shift
+  while [ -n "$1" ]; do
+    mkdir -p "${super}/$1"
+    echo "" >>"${super}/$1/README.md"
+    shift
+  done
+fi
