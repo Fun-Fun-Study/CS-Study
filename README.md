@@ -92,7 +92,7 @@
 행동
 
 - [템플릿 메소드](./DesignPattern/행동/템플릿20메소드/README.md)
-- 옵저버
+- [옵저버](./DesignPattern/행동/옵저버/README.md)
 - 반복자
 
 구조
