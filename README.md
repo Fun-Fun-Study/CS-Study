@@ -85,7 +85,7 @@
 생성
 
 - [싱글톤](./DesignPattern/생성/싱글톤%20패턴/README.md)
-- [팩토리 메소드](./DesignPattern/생성/팩토리20메소드/README.md)
+- [팩토리 메소드](./DesignPattern/생성/팩토리%20메소드/README.md)
 - [추상 팩토리](./DesignPattern/생성/추상%20팩토리/README.md)
 - 빌더
 
