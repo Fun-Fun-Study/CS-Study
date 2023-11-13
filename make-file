@@ -22,7 +22,8 @@ else
     mkdir -p "$folder"
     file="${folder}/README.md"
     echo "" > "${file}"
-    echo "- [$1](./$file)"
+
+    echo "- [$1](./${file// /%20})"
     shift
     ((num++))
   done
