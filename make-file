@@ -16,9 +16,16 @@ elif [ $# -eq 1 ]; then
 else
   super=$1
   shift
+  num=1
   while [ -n "$1" ]; do
-    mkdir -p "${super}/$1"
-    echo "" >>"${super}/$1/README.md"
+    printf -v folder "%s/%02d.%s" "$super" $num "$1"
+    mkdir -p "$folder"
+    file="${folder}/README.md"
+    echo "" > "${file}"
+
+    echo "- [$1](./${file// /%20})"
     shift
+    ((num++))
   done
+  echo $out
 fi
