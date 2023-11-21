@@ -36,7 +36,32 @@
 - 충돌 발생 가능
 - 순서가 있는 배열에는 어울리지 않음
 
-임의의 크기를 가진 데이터를 고정된 데이터의 크기로 변환시키는 것
+## Hash Table vs Hash Map
 
-특정한 배열의 인덱스나 위치에 입력하고자하는 데이터의 값을 이용해 저장하거나 조회할 수 있음
-해시를 이용하면 즉시 저장하거나 조회하는 위치를 참조할 수 있어 빠른 속도로 처리가 가능함
+- 병렬 처리를 하면서 자원의 동기화를 고려해야 하는 상황이라면 해시테이블을 사용
+- 병렬 처리를 하지 않거나 자원의 동기화를 고려하지 않는 상황이라면 해시맵을 사용
+
+```java
+// HashMap
+Map<Integer, String> map = new HashMap<>();
+map.put(1, "one");
+map.put(2, "two");
+
+System.out.println(map.get(1)); // one
+System.out.println(map.get(2)); // two
+
+// Hashtable
+Map<Integer, String> table = new Hashtable<>();
+table.put(1, "one");
+table.put(2, "two");
+
+System.out.println(table.get(1)); // one
+System.out.println(table.get(2)); // two
+```
+
+| Hash Map                   | Hash Table                         |
+| -------------------------- | ---------------------------------- |
+| null O                     | null X                             |
+| 동기화 되어있지 않아 빠름  | 동기화되어 느림                    |
+| Iterator클래스를 통해 탐색 | Iterator와 Enumeration을 통해 탐색 |
+| AbstractMap 클래스 상속    | Dictionary클래스 상속              |
