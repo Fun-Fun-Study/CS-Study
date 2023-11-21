@@ -11,7 +11,7 @@
 - **_Overlapping Subproblems_** (겹치는 부분 문제)
   - 동일한 작은 문제들이 반복하여 나타나는 경우
 - **_Optimal Substructure_** (최적 부분 구조)
-  - 부분 문제의 최적 결과 값을 사용해 전체 문제의 최적 결과를 낼 수 있는 경우 <br>ex) A에서 X가 최적값이고, X에서 B가 최적값이면, A-X-B 도 최적
+  - 부분 문제의 최적 결과 값을 사용해 전체 문제의 최적 결과를 낼 수 있는 경우 <br>ex) A에서 X가 최적값이고, X에서 B가 최적값이면, A-X-B 도 최적<br>
     <img src="https://github.com/Fun-Fun-Study/CS-Study/assets/73164347/9d582d4d-374e-494d-874d-4dd92b52816a">
 - 특정 문제의 정답은 문제의 크기에 상관없이 항상 동일
 
