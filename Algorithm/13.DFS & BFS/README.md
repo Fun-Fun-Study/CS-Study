@@ -12,7 +12,12 @@
 
 <img src="https://github.com/Fun-Fun-Study/CS-Study/assets/73164347/68a85384-7e43-4ed0-bf38-3bd58b2a333e" style="width: 400">
 
-### 사용
+### DFS의 특징
+
+- 그래프의 깊이(depth)가 깊을 수록 빠름
+- 메모리를 적게 씀
+
+### DFS의 사용
 
 - **Stack** 혹은 **재귀함수**로 구현
 - 모든 노드를 방문하는 경우 사용 가능
@@ -27,7 +32,12 @@
 
 <img src="https://github.com/Fun-Fun-Study/CS-Study/assets/73164347/9c44acc9-171d-4334-a49a-d92afbf83687" style="width: 400">
 
-### 사용
+### BFS의 특징
+
+- 찾는 노드가 인접할 수록 유리
+- 노드가 많을 수록 메모리를 많이 소비
+
+### BFS의 사용
 
 - **큐**를 이용해서 구현
 - 주로 두 노드 사이의 최단 경로를 찾고 싶을 때 사용
