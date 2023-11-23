@@ -1,4 +1,4 @@
-## CSS 방법론
+## ✨CSS 방법론
 
 CSS사용시 클래스 이름을 어떻게 작성할지, 어떠한 방식으로 스타일을 작성할지 등 CSS를 보다 효율적으로 작성하기 위해 정의된 일종의 규칙
 
@@ -213,3 +213,28 @@ input ... {
 - Id 셀렉터 사용금지
 - !important 사용금지
 - class 이름을 의미있게 지어야함
+
+## ✨CSS 선택자 우선 순위
+
+| 순위 | 선언방식           | 설명                                            | 예시                                                             |
+| ---- | ------------------ | ----------------------------------------------- | ---------------------------------------------------------------- |
+| 1    | !important         | 우선순위 최상위 명령어. 속성값 바로 뒤에 넣는다 | `p { color: red !important; }`                                   |
+| 2    | inline style       | html 문서에서 tag 내에 style을 정의한 것        | `<p style="color: red"> `                                        |
+| 3    | id Selector        | tag 내에 id를 정의한 후, #id 으로 선택          | `<p id="title">제목</p>`<br>`#title { color: red; }`             |
+| 4    | class Selector     | or tag 내에 class를 정의한 후, .class 으로 선택 | `<p>class="subtitle">부제목</p>`<br>`.subtitle { color: red; } ` |
+| 5    | tag Selector       | tag 요소를 선택자로 사용                        | `p { color: red; }`                                              |
+| 6    | universal Selector | asterisk(\*)로 요소 전체를 선택                 | `* { color: red; }`                                              |
+
+#### 이외의 경우
+
+<table>
+<tr>
+<td>class 선택자 vs 특정 요소의 class 선택자 </td> <td>	특정 태그의 class 우선<br>ex) .title vs h1.title : h1.title가 더 구체적임 </td>
+</tr>
+<tr>
+<td> 같은 요소 선택자에 대한 css </td> <td> 순서상 나중이 우선 </td>
+</tr>
+<tr>
+<td> 같은 class 선택자에 대한 css </td> <td> 순서상 나중이 우선 </td>
+</tr>
+</table>
