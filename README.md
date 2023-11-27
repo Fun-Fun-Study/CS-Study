@@ -21,6 +21,18 @@
 
 ### 개발 상식
 
+- [TDD](./DevCommonSense/01.%20TDD/README.md)
+- [Generic](./DevCommonSense/02.%20Generic/README.md)
+- [클린코드 & 리팩토링 & 시큐어코딩](./DevCommonSense/03.%20클린코드%20&%20리팩토링%20&%20시큐어코딩/README.md)
+- [데브옵스](./DevCommonSense/04.%20데브옵스/README.md)
+- [MSA](./DevCommonSense/05.%20MSA/README.md)
+- [객체 지향 프로그래밍](./DevCommonSense/06.%20객체%20지향%20프로그래밍/README.md)
+- [함수형 프로그래밍](./DevCommonSense/07.%20함수형%20프로그래밍/README.md)
+- [서드파티](./DevCommonSense/08.%20서드파티/README.md)
+- [정규식](./DevCommonSense/09.%20정규식/README.md)
+- [Git](./DevCommonSense/10.%20Git/README.md)
+- [Docker & Kubernetes](./DevCommonSense/11.%20Docker%20&%20Kuvernetes/README.md)
+
 <br>
 
 ### 자료구조

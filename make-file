@@ -26,7 +26,7 @@ else
     file="${folder}/README.md"
     touch "${file}"
 
-    echo "- [$1](./${file// /%20})"
+    echo "- [$1](. /${file// /%20})"
     shift
     ((num++))
   done
