@@ -10,9 +10,12 @@ if [ $# -eq 0 ]; then
   echo ""
   echo "'폴더명' 또는 '대주제'/'소주제' 폴더가 생기고"
   echo "  그 안에 README.md 파일 생성"
+
 elif [ $# -eq 1 ]; then
   mkdir -p $1
-  echo "" >>"$1/README.md"
+  file="$1/README.md"
+  touch "${file}"
+
 else
   super=$1
   shift
@@ -21,9 +24,9 @@ else
     printf -v folder "%s/%02d.%s" "$super" $num "$1"
     mkdir -p "$folder"
     file="${folder}/README.md"
-    echo "" > "${file}"
+    touch "${file}"
 
-    echo "- [$1](./${file// /%20})"
+    echo "- [$1](. /${file// /%20})"
     shift
     ((num++))
   done
